@@ -66,14 +66,14 @@ p {
 }
 
 button {
-    margin-top: 8px;
+    margin-top: 12px;
     background-color: #3882F6;
     padding: 8px 24px;
     border: 0px;
     border-style: hidden;
     border-radius: 5px;
 }
-    
+
 button a {
     color: white;
     text-decoration: none;
