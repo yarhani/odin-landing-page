@@ -95,13 +95,13 @@ button a {
     flex-flow: column nowrap;
     justify-content: start;
     align-items: stretch;
-    padding: 24px 140px;
+    padding: 24px 140px 48px 140px;
 
 }
 
 h2 {
     font-size: 24px;
-    text-align: center
+    text-align: center;
 }
 
 .gallery {
@@ -124,20 +124,30 @@ h2 {
     text-wrap: wrap;
     min-width: 80px;
     text-align: center;
+    margin-top: 16px;
 }
 
 
 /* Quote Container */
 blockquote {
-
+    padding: 48px 140px;
+    background-color: #E5E7EB;
+    margin: 0px;
 }
 
 .quote {
-
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    text-align: justify;
 }
 
 .quote-author {
-
+    font-size: 16px;
+    color: black;
+    text-align: right;
+    font-weight: 900;
 }
 
 /* CTA Container */
