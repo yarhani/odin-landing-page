@@ -94,11 +94,14 @@ button a {
     display: flex;
     flex-flow: column nowrap;
     justify-content: start;
-    align-items: center;
+    align-items: stretch;
+    padding: 24px 140px;
+
 }
 
 h2 {
-
+    font-size: 24px;
+    text-align: center
 }
 
 .gallery {
@@ -106,23 +109,26 @@ h2 {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: start;
+    gap: 24px;
 }
 
 .gallery-item {
-    flex: 1
+    flex: 1;
 }
 
 .image-container {
-    border-color: #3882F6;
-    width: 80px;
-    height: 80px;
+    min-width: 80px;
+    aspect-ratio: 1 / 1;
     border: 2px;
     border-style: solid;
+    border-color: #3882F6;
     border-radius: 5px;
 }
 
 .gallery-item p {
     text-wrap: wrap;
+    min-width: 80px;
+    text-align: center;
 }
 
 
