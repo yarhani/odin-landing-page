@@ -152,27 +152,32 @@ blockquote {
 
 /* CTA Container */
 .cta-container {
-
-}
-
-.cta {
-
-}
-
-.cta-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: end;
+    margin: 48px 120px;
+    background-color: #3882F6;
+    padding: 24px 48px;
+    border-radius: 5px;
 
 }
 
 .cta-main {
-
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
 }
 
 .cta-description {
-
+    font-size: 16px;
+    color: white;
 }
 
 .cta-button {
-
+    border: 2px;
+    border-color: white;
+    border-style: solid;
 }
 
 footer {
