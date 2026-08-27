@@ -3,9 +3,11 @@ body {
     font-family: 'Roboto', Arial, sans-serif;
     margin: 0;
     min-height: 100vh;
+    min-width: 400px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
+    align-items: stretch;
 }
 
 header {
@@ -34,24 +36,57 @@ header {
 
 /* Splash Container */
 .splash-container {
-
+    display: flex;
+    flex-flow: row wrap;
+    gap: 16px;
+    background-color: #1F2937;
+    align-items:start spread;
+    justify-content: space-between;
+    padding: 50px 100px;
 }
 
 .splash-content {
-
+    flex: 1;
+    height: 100%;
+    align-self: start;
 }
 
 h1 {
-
+    font-size: 36px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 8px;
 }
 
 p {
-
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0px;
 }
 
 button {
-
+    margin-top: 8px;
+    background-color: #3882F6;
+    padding: 8px 24px;
+    border: 0px;
+    border-style: hidden;
+    border-radius: 5px;
 }
+    
+button a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.splash-image {
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    min-width: 200px;
+}
+
 
 /* Gallery Container */
 
